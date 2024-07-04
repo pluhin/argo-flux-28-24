@@ -13,7 +13,7 @@ spec:
     helm:
       parameters:
       - name: ingress.hosts[0].host
-        value: app-argo.k8s-15.sa
+        value: app-argo.k8s-16.sa
       - name: ingress.hosts[0].paths[0].path
         value: /
       - name: ingress.hosts[0].paths[0].pathType
