@@ -32,8 +32,8 @@ metadata:
   name: flux-monitoring
   namespace: flux-system
 spec:
-  interval: 10m0s
   path: ./monitoring
+  interval: 10m10s
   prune: true
   sourceRef:
     kind: GitRepository
